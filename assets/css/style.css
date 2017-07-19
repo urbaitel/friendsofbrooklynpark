@@ -133,7 +133,7 @@ section {
 	position:absolute;
 	top:0;
 	left:0;
-	background-image:url(http://unsplash.it/1600/1400?random=1);
+	background-image:url(https://urbaitel.github.io/friendsofbrooklynpark/assets/img/slipnslide.jpg);
 	width:100%;
 	height:100%;
 	opacity:0.05;
@@ -152,7 +152,7 @@ section {
 	position:absolute;
 	top:0;
 	left:0;
-	background-image:url(http://unsplash.it/1600/1400?random=2);
+	background-image:url(https://urbaitel.github.io/friendsofbrooklynpark/assets/img/slipnslide.jpg);
 	-webkit-background-size:cover !Important;
 	-moz-background-size:cover !Important;
 	-o-background-size:cover !Important;
@@ -170,7 +170,7 @@ section {
 	position:absolute;
 	top:0;
 	left:0;
-	background-image:url(http://unsplash.it/1600/1400?random=3);
+	background-image:url(https://urbaitel.github.io/friendsofbrooklynpark/assets/img/slipnslide.jpg);
 	-webkit-background-size:cover !Important;
 	-moz-background-size:cover !Important;
 	-o-background-size:cover !Important;
@@ -189,7 +189,7 @@ section {
 	position:absolute;
 	top:0;
 	left:0;
-	background-image:url(http://unsplash.it/1600/1400?random=4);
+	background-image:url(https://urbaitel.github.io/friendsofbrooklynpark/assets/img/slipnslide.jpg);
 	-webkit-background-size:cover !Important;
 	-moz-background-size:cover !Important;
 	-o-background-size:cover !Important;
@@ -207,7 +207,7 @@ section {
 	position:absolute;
 	top:0;
 	left:0;
-	background-image:url(http://unsplash.it/1600/1400?random=5);
+	background-image:url(https://urbaitel.github.io/friendsofbrooklynpark/assets/img/slipnslide.jpg);
 	width:100%;
 	height:100%;
 	opacity:0.08;
@@ -225,7 +225,7 @@ section {
 	position:absolute;
 	top:0;
 	left:0;
-	background-image:url(http://unsplash.it/1600/1400?random=6);
+	background-image:url(https://urbaitel.github.io/friendsofbrooklynpark/assets/img/slipnslide.jpg);
 	width:100%;
 	height:100%;
 	opacity:0.04;
@@ -624,7 +624,7 @@ input,button,select,textarea {
 	position:absolute;
 	top:0;
 	left:0;
-	background:url('assets/img/slipnslide.jpg') fixed no-repeat;
+	background:url(https://urbaitel.github.io/friendsofbrooklynpark/assets/img/slipnslide.jpg) fixed no-repeat;
 	width:100%;
 	height:100%;
 	opacity:0.1;
@@ -650,7 +650,7 @@ input,button,select,textarea {
 	position:absolute;
 	top:0;
 	left:0;
-	background:url('assets/img/brooklyn-photo.jpg') fixed no-repeat;
+	background:url(https://urbaitel.github.io/friendsofbrooklynpark/assets/img/brooklyn-photo.jpg) fixed no-repeat;
 	width:100%;
 	height:100%;
 	opacity:0.1;
@@ -676,7 +676,7 @@ input,button,select,textarea {
 	position:absolute;
 	top:0;
 	left:0;
-	background:url('assets/img/brooklyn-neighboorhood59.jpg') fixed no-repeat;
+	background:url(https://urbaitel.github.io/friendsofbrooklynpark/assets/img/brooklyn-sign.jpg) fixed no-repeat;
 	width:100%;
 	height:100%;
 	opacity:0.1;
