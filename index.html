@@ -1,414 +1,502 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta http-equiv="Cache-control" content="no-cache">
-<meta charset="utf-8">
-<title>Friends of Brooklyn Park</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
-<!-- Le styles -->
-<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-<link href="assets/css/font-awesome.min.css" rel="stylesheet">
-<link href="assets/css/style.css" rel="stylesheet">
-<link href="assets/css/animate.css" rel="stylesheet">
-<link href="assets/css/skin-blue.css" rel="stylesheet">
-<!-- Le fav -->
-<link rel="shortcut icon" href="assets/ico/favicon.ico">
-<!--[if lt IE 9]>
-<style>
-nav,.container,header#top-section,.carousel,.demobutton {display:none;}
-</style>
-<div id='browserWarning'>
-You are using an outdated version of Internet Explorer. Please, switch to
-<a style="color:red;" href='http://getfirefox.com'>Firefox</a>,
-<a style="color:red;" href='http://www.google.de/chrome'>Google Chrome</a>
-,
-<a style="color:red;" href='http://www.apple.com/safari/'>Safari</a>
-or the latest version of
-<a style="color:red;" href='http://windows.microsoft.com/en-US/internet-explorer/downloads/ie'>Internet Explorer</a>
-for a
-<span class='bold'>better</span>
-and
-<span class='bold'>safer</span>
-experience.
-</div>
-<![endif]-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Friends of Brooklyn Park</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="css/animate.css" rel="stylesheet" />
+  <!-- Squad theme CSS -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="color/default.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: Squadfree
+    Theme URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+
 </head>
-<!-- /head-->
-<body data-spy="scroll" data-target=".navbar">
-<nav id="topnav" class="navbar navbar-fixed-top navbar-default" role="navigation">
-<div class="container">
-	<!-- Brand and toggle get grouped for better mobile display -->
-	<div class="navbar-header">
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-		<span class="sr-only">Toggle navigation</span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		</button>
-		<a class="navbar-brand" href="#top-section">Friends of Brooklyn Park</a>
-	</div>
-	<!-- Collect the nav links, forms, and other content for toggling -->
-	<div class="collapse navbar-collapse navbar-ex1-collapse">
-		<ul class="nav navbar-nav navbar-right">
-			<li class="active"><a href="#top-section">Home</a></li>
-			<li><a href="#Section-1">Summer Youth Program</a></li>
-			<li><a href="#Section-4">Board and Staff</a></li>
-			<li><a href="#Section-5">Events</a></li>
-			<li><a href="#Section-6">Donate</a></li>
-			<li><a href="#Section-7">Community</a></li>
-			<li><a href="#Section-8">Contact Us</a></li>
-		</ul>
-	</div>
-	<!-- /.navbar-collapse -->
-</div>
-</nav>
-<!-- HOMEPAGE -->
-<header id="top-section" class="fullbg">
-<div class="jumbotron">
-	<div id="carousel_intro" class="carousel slide fadeing">
-		<div class="carousel-inner">
-			<div class="active item" id="slide_1">
-				<div class="carousel-content">
-					<div class="animated fadeInDownBig">
-						 <h1>The Summer Youth Program will return in 2018, June 18 - Aug 24.
-						 We need your help, our summer program cost $25K to run each summer.</h1>
-					</div>
-				</div>
-			</div>
-			<div class="item" id="slide_2">
-				<div class="carousel-content">
-					<div class="animated fadeInDownBig">
-						 <h1>Help us make Brooklyn the place to be this summer and beyond, learn how you can donate.</h1>
-						   </h1>
-					</div>
-				</div>
-			</div>
-			<div class="item" id="slide_3">
-				<div class="carousel-content">
-					<div class="animated fadeInDownBig">
-						 <h1>Friends of Brooklyn Park is a community volunteer run organization. Many individuals,
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="load"></div>
+  </div>
+
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+        <a class="navbar-brand" href="index.html">
+          <h1>FoBP</h1>
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#intro">Home</a></li>
+          <li><a href="#summer-youth-program">Summer Youth Program</a></li>
+          <li><a href="#about">Board and Staff</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#donations">Donations</a></li>
+          <li><a href="#community">Community</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+  <!-- Section: intro -->
+  <section id="intro" class="intro">
+    <div class="slogan">
+      <h2>FRIENDS OF <span class="text_color">BROOKLYN PARK</span> </h2>
+      <h4>The Summer Youth Program will return in 2018<br/>June 18 - Aug 24</h4>
+    </div>
+    <div class="page-scroll">
+      <a href="#service" class="btn btn-circle">
+				<i class="fa fa-angle-double-down animated"></i>
+			</a>
+    </div>
+  </section>
+  <!-- /Section: intro -->
+
+  <!-- Section: summer-youth-program -->
+  <section id="summer-youth-program" class="home-section text-center bg-gray">
+    <div class="heading-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="wow bounceInDown" data-wow-delay="0.4s">
+              <div class="section-heading">
+                <h2>Summer Youth Program</h2>
+                <i class="fa fa-2x fa-angle-down"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-5">
+          <hr class="marginbot-50">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="wow fadeInLeft" data-wow-delay="0.2s">
+            <div class="service-box">
+              <div class="service-desc">
+                <h5>We need your help</h5>
+                <p>We need your help, our summer program cost $25K to run each summer.</p>
+                <p>Help us make Brooklyn the place to be this summer and beyond, learn how you can donate.</p>
+                <p>Friends of Brooklyn Park is a community volunteer run organization. Many individuals,
 							 businesses, and services donate their time, talent, space, money, and energy to make our
-							 organization and summer program happen.</h1>
-					</div>
-				</div>
-			</div>
-			<div class="item" id="slide_1">
-				<div class="carousel-content">
-					<div class="animated fadeInDownBig">
-						 <h1>Please see our Gratitude/Community page to see all of our Brooklyn Community that
-							 make Friends of Brooklyn Park possible.</h1>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<button class="left carousel-control" href="#carousel_intro" data-slide="prev" data-start="opacity: 0.6; left: 0%;" data-250="opacity:0; left: 5%;"><i class="fa fa-chevron-left"></i></button>
-	<button class="right carousel-control" href="#carousel_intro" data-slide="next" data-start="opacity: 0.6; right: 0%;" data-250="opacity:0; right: 5%;"><i class="fa fa-chevron-right"></i></button>
-</div>
-<div class="inner-top-bg">
-</div>
-</header>
-<!-- / HOMEPAGE -->
-<!--  SECTION-1 -->
-<section id="Section-1" class="fullbg">
-<div class="section-divider">
-</div>
-<div class="container">
-<div class="row">
-	<div class="page-header text-center col-sm-12 col-lg-12 color-white animated fade">
-		<h1>The Summer Youth Program is back in 2018</h1>
-		<p class="lead">
-			The Brooklyn Park Summer Youth Program has been a hub of activities and belonging for 60 years.
-			Countless kids and parents have enjoyed its mission, and have gained from it.
-		</p>
-		<p class="lead">
-			Brooklyn neighborhood kids have spent hundreds of hours at their park: The infamous waterslide, softball
-			leagues, wiffle ball leagues and mushball, tennis golf course and much more.
-		</p>
-		<p class="lead">
-			All these activities centers around "The Shack." Built in 1957 it is brick outbuilding filled with all
-			the games, tables, furniture and supplies of the program.
-		</p>
-		<p class="lead">
-			The Brooklyn neighborhood lost this invaluable program last year due to budget cuts. The community
-			has come together and formed Friends of Brooklyn Park to administer the program for the summer of
-			2018 and beyond.
-		</p>
-	</div>
-</div>
-</div>
-</section>
-<!-- SECTION-2(gallery) -->
-<section id="Section-2" class="fullbg color-white">
-<div class="section-divider">
-</div>
-<div class="container demo-3">
-<div class="row">
-	<div class="page-header text-center col-sm-12 col-lg-12 animated fade">
-		<h1>Gallery</h1>
-		<p class="lead">
-			 Pictures speak louder than words.
-		</p>
-	</div>
-</div>
-<div class="row animated fadeInUpNow">
-	<div class="col-sm-12 col-lg-12">
-		<ul class="grid cs-style-4">
-			<li>
-			<figure>
-			<div>
-				<img src="assets/img/slipnslide.jpg">
-			</div>
-			<figcaption>
-			<h3>Slip N Slide!</h3>
-			<span>From the 1980s</span>
-			</figcaption>
-			</figure>
-			</li>
-			<li>
-			<figure>
-			<div>
-				<img src="assets/img/brooklyn-photo.jpg">
-			</div>
-			<figcaption>
-			<h3>Our Home</h3>
-			<span></span>
-			</figcaption>
-			</figure>
-			</li>
-			<li>
-			<figure>
-			<div>
-				<img src="assets/img/brooklyn-sign.jpg">
-			</div>
-			<figcaption>
-			<h3>Our Neighboorhood</h3>
-			<span></span>
-			</figcaption>
-			</figure>
-			</li>
-		</ul>
-	</div>
-</div>
-</div>
-</section>
-<!-- SECTION-4(team) -->
-<section id="Section-4" class="fullbg color-white">
-<div class="section-divider">
-</div>
-<div class="container demo-3">
-<div class="row">
-	<div class="page-header text-center col-sm-12 col-lg-12 animated fade">
-		<h1>Board and Staff</h1>
-		<p class="lead">
-			 Our board is composed of volunteers from the Brooklyn neighborhood. Please reach out to us if you have any questions, concerns, ideas, or if you want to get involved. We have several open positions to fill.
-		</p>
-		<p class="lead">
-			Board meeting will be once a quarter but are currently every 2 weeks until the program is launched.
-		</p>
-	</div>
-</div>
-<div class="row">
-	<div class="page-header text-center col-sm-12 col-lg-12 animated fade">
-		<h1>Board</h1>
-	</div>
-</div>
-<div class="row animated fadeInUpNow">
-	<div class="col-md-4">
-		<div class="thumbnail">
-			<div class="caption">
-				<h4>Ben Tarne</h4>
-				<span class="primarycol">- Chair -</span>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4">
-		<div class="thumbnail">
-			<div class="caption">
-				<h4>Daniel Gaard</h4>
-				<span class="primarycol">- Vice Chair -</span>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4">
-		<div class="thumbnail">
-			<div class="caption">
-				<h4>Caroline Dunn</h4>
-				<span class="primarycol">- Secretary -</span>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4">
-		<div class="thumbnail">
-			<div class="caption">
-				<h4>April Dewees</h4>
-				<span class="primarycol">- Treasurer -</span>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4">
-		<div class="thumbnail">
-			<div class="caption">
-				<h4>Robert Kobus</h4>
-				<span class="primarycol">- Summer Youth Program Development Officer -</span>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4">
-		<div class="thumbnail">
-			<div class="caption">
-				<h4>Open - Contact us!</h4>
-				<span class="primarycol">- Fundraiser -</span>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4">
-		<div class="thumbnail">
-			<div class="caption">
-				<h4>Open - Contact us!</h4>
-				<span class="primarycol">- Communications -</span>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="row">
-	<div class="page-header text-center col-sm-12 col-lg-12 animated fade">
-		<h1>Staff</h1>
-	</div>
-</div>
-<div class="row animated fadeInUpNow">
-	<div class="col-md-4">
-		<div class="thumbnail">
-			<div class="caption">
-				<h4>Craig Montag</h4>
-				<span class="primarycol">- Program Director -</span>
-			</div>
-		</div>
-	</div>
+							 organization and summer program happen.</p>
+               <p>Please see our Gratitude/Community page to see all of our Brooklyn Community that
+							 make Friends of Brooklyn Park possible.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="wow fadeInLeft" data-wow-delay="0.2s">
+            <div class="service-box">
+              <div class="service-desc">
+                <h5>The Program</h5>
+                <p>
+            			The Brooklyn Park Summer Youth Program has been a hub of activities and belonging for 60 years.
+            			Countless kids and parents have enjoyed its mission, and have gained from it.
+            		</p>
+            		<p>
+            			Brooklyn neighborhood kids have spent hundreds of hours at their park: The infamous waterslide, softball
+            			leagues, wiffle ball leagues and mushball, tennis golf course and much more.
+            		</p>
+            		<p>
+            			All these activities centers around "The Shack." Built in 1957 it is brick outbuilding filled with all
+            			the games, tables, furniture and supplies of the program.
+            		</p>
+            		<p>
+            			The Brooklyn neighborhood lost this invaluable program last year due to budget cuts. The community
+            			has come together and formed Friends of Brooklyn Park to administer the program for the summer of
+            			2018 and beyond.
+            		</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img src="img/slipnslide.jpg" class="img-rounded img-responsive">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Section: summer-youth-program -->
 
-	<div class="col-md-4">
-		<div class="thumbnail">
-			<div class="caption">
-				<h4>TBA</h4>
-				<span class="primarycol">- Assistant Program Director -</span>
-			</div>
-		</div>
-	</div>
-</div>
-</div>
-</section>
-<!-- SECTION-5 (pricing) -->
-<section id="Section-5" class="fullbg color-white">
-<div class="section-divider">
-</div>
-<div class="container">
-<div class="row">
-	<div class="page-header text-center col-sm-12 col-lg-12 animated fade">
-		<h1>Events</h1>
-		<p class="lead">
-			 Coming soon...
-		</p>
-	</div>
-</div>
-</div>
-</section>
-<!-- SECTION-6 (donate) -->
-<section id="Section-6" class="fullbg color-white">
-<div class="section-divider">
-</div>
-<div class="container">
-<div class="row">
-	<div class="page-header text-center col-sm-12 col-lg-12 animated fade">
-		<h1>Donate</h1>
-		<p class="lead">
-			 Coming soon...
-		</p>
-	</div>
-</div>
-</div>
-</section>
-<!-- SECTION-7 (community) -->
-<section id="Section-7" class="fullbg color-white">
-<div class="section-divider">
-</div>
-<div class="container">
-<div class="row">
-	<div class="page-header text-center col-sm-12 col-lg-12 animated fade">
-		<h1>Gratitude for our Community</h1>
-		<p class="lead">
-			 Our local Brooklyn businesses and organizations are awesome and love our community.
-			 Thank you to the following Brooklynite businesses and orgs for your support; Brooklyn Park Pub,
-			 Bear Paw Inn, Know Thy Food, Hazel & Pear, Rose City Coffee, Greater Brooklyn Business Association,
-			 Brooklyn Action Corps.
-		</p>
-		<p class="lead">
-			Logo design and graphic design generously provided by the Rocket Eye Design, www.rocketeye.com.
-		</p>
-		<p class="lead">
-			Web development and hosting provided in-kind by Marc Urbaitel.
-		</p>
-	</div>
-</div>
-</div>
-</section>
-<!-- SECTION-8 (contact) -->
-<section id="Section-8" class="fullbg">
-<div class="section-divider">
-</div>
-<div class="container">
-<div class="row">
-	<div class="page-header text-center col-sm-12 col-lg-12 color-white animated fade">
-		<h2>Contact Us</h2>
-		<p class="lead">
-			Friends of Brooklyn Park<br/>
-		  Address: PO Box 1234, Portland, OR, 97202<br/>
-		  Phone: Google Number TBD<br/>
-		  Email: fobrooklynpark@gmail.com<br/>
-		  Follow us on FB, Instagram, Twitter @fobrooklynpark</br>
-		</p>
-	</div>
-</div>
-<div class="row animated fadeInUpNow">
-	<div class="col-lg-8 col-md-offset-2">
+  <!-- Section: about -->
+  <section id="about" class="home-section text-center">
+    <div class="heading-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="wow bounceInDown" data-wow-delay="0.4s">
+              <div class="section-heading">
+                <h2>Board and Staff</h2>
+                <i class="fa fa-2x fa-angle-down"></i>
+                <p>Our board is composed of volunteers from the Brooklyn neighborhood. Please reach out to us if you have any questions, concerns, ideas, or if you want to get involved. We have several open positions to fill.</p>
+                <p>Board meeting will be once a quarter but are currently every 2 weeks until the program is launched.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-5">
+          <hr class="marginbot-50">
+          <h2>Board</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="wow bounceInUp" data-wow-delay="0.2s">
+            <div class="team boxed-grey">
+              <div class="inner">
+                <h5>Ben Tarne</h5>
+                <p class="subtitle">Chair</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="wow bounceInUp" data-wow-delay="0.2s">
+            <div class="team boxed-grey">
+              <div class="inner">
+                <h5>Daniel Gaard</h5>
+                <p class="subtitle">Vice Chair</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="wow bounceInUp" data-wow-delay="0.2s">
+            <div class="team boxed-grey">
+              <div class="inner">
+                <h5>Caroline Dunn</h5>
+                <p class="subtitle">Secretary</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="wow bounceInUp" data-wow-delay="0.2s">
+            <div class="team boxed-grey">
+              <div class="inner">
+                <h5>April Dewees</h5>
+                <p class="subtitle">Treasurer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="wow bounceInUp" data-wow-delay="0.2s">
+            <div class="team boxed-grey">
+              <div class="inner">
+                <h5>Robert Kobus</h5>
+                <p class="subtitle">Summer Youth Program Development Officer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="wow bounceInUp" data-wow-delay="0.2s">
+            <div class="team boxed-grey">
+              <div class="inner">
+                <h5>Open - Contact us!</h5>
+                <p class="subtitle">Fundraiser</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="wow bounceInUp" data-wow-delay="0.2s">
+            <div class="team boxed-grey">
+              <div class="inner">
+                <h5>Open - Contact us!</h5>
+                <p class="subtitle">Communications</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-5">
+          <hr class="marginbot-50">
+          <h2>Staff</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="wow bounceInUp" data-wow-delay="0.2s">
+            <div class="team boxed-grey">
+              <div class="inner">
+                <h5>Craig Montag</h5>
+                <p class="subtitle">Program Director</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="wow bounceInUp" data-wow-delay="0.2s">
+            <div class="team boxed-grey">
+              <div class="inner">
+                <h5>TBD</h5>
+                <p class="subtitle">Assistant Program Director</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Section: about -->
 
-	</div>
-</div>
-</div>
-</section>
-<!-- FOOTER -->
-<footer id="foot-sec">
-<div class="footerdivide">
-</div>
-<div class="container ">
-<div class="row">
-	<div class="text-center color-white col-sm-12 col-lg-12">
-		<ul class="social-icons">
-			<li><a href="https://www.facebook.com/fobrooklynpark/"><i class="fa fa-facebook"></i></a></li>
-			<li><a href="https://twitter.com/fobrooklynpark"><i class="fa fa-twitter"></i></a></li>
-		</ul>
-		<p>
-			 © FriendsOfBrooklynPark.org
-		</p>
-	</div>
-</div>
-</div>
-</footer>
-<!-- Le javascript
-    ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="assets/js/jquery.min.js" type="text/javascript"></script>
-<script src="assets/js/bootstrap.js"></script>
-<script src="assets/js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
-<script src="assets/js/jquery.localscroll-1.2.7-min.js" type="text/javascript"></script>
-<script src="assets/js/jquery.scrollTo-1.4.6-min.js" type="text/javascript"></script>
-<script src="assets/js/jquery.bxslider.min.js"></script>
-<script src="assets/js/jquery.placeholder.js"></script>
-<script src="assets/js/modernizr.custom.js"></script>
-<script src="assets/js/toucheffects.js"></script>
-<script src="assets/js/animations.js"></script>
-<script src="assets/js/init.js"></script>
+
+  <!-- Section: services -->
+  <section id="events" class="home-section text-center bg-gray">
+
+    <div class="heading-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="wow bounceInDown" data-wow-delay="0.4s">
+              <div class="section-heading">
+                <h2>Events</h2>
+                <i class="fa fa-2x fa-angle-down"></i>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-5">
+          <hr class="marginbot-50">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="wow fadeInLeft" data-wow-delay="0.2s">
+            <div class="service-box">
+              <div class="service-desc">
+                <img src="img/park-sign.jpg" class="img-rounded img-responsive"><br/>
+                <h5>Coming soon...</h5>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Section: events -->
+
+  <!-- Section: services -->
+  <section id="donations" class="home-section text-center">
+
+    <div class="heading-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="wow bounceInDown" data-wow-delay="0.4s">
+              <div class="section-heading">
+                <h2>Donations</h2>
+                <i class="fa fa-2x fa-angle-down"></i>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-5">
+          <hr class="marginbot-50">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="wow fadeInLeft" data-wow-delay="0.2s">
+            <div class="service-box">
+              <div class="service-desc">
+                <h5>Coming soon...</h5>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Section: donations -->
+
+  <!-- Section: community -->
+  <section id="community" class="home-section text-center bg-gray">
+
+    <div class="heading-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="wow bounceInDown" data-wow-delay="0.4s">
+              <div class="section-heading">
+                <h2>Gratitude for our Community</h2>
+                <i class="fa fa-2x fa-angle-down"></i>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-5">
+          <hr class="marginbot-50">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="wow fadeInLeft" data-wow-delay="0.2s">
+            <div class="service-box">
+              <div class="service-desc">
+                <center><img src="img/brooklyn-photo.jpg" class="img-rounded img-responsive"></center><br/>
+                <p>
+            			 Our local Brooklyn businesses and organizations are awesome and love our community.
+            			 Thank you to the following Brooklynite businesses and orgs for your support; Brooklyn Park Pub,
+            			 Bear Paw Inn, Know Thy Food, Hazel & Pear, Rose City Coffee, Greater Brooklyn Business Association,
+            			 Brooklyn Action Corps.
+            		</p>
+            		<p>
+            			Logo design and graphic design generously provided by the Rocket Eye Design, www.rocketeye.com.
+            		</p>
+            		<p>
+            			Web development and hosting provided in-kind by Marc Urbaitel.
+            		</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Section: community -->
+
+  <!-- Section: contact -->
+  <section id="contact" class="home-section text-center">
+    <div class="heading-contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="wow bounceInDown" data-wow-delay="0.4s">
+              <div class="section-heading">
+                <h2>Contact us</h2>
+                <i class="fa fa-2x fa-angle-down"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-5">
+          <hr class="marginbot-50">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="widget-contact">
+            <h5>Our address</h5>
+            <address>
+    				  <strong>Friends of Brooklyn Park</strong><br>
+    				  PO Box 1234<br>
+    				  Portland, OR 97202<br>
+    				</address>
+
+            <address>
+    				  <strong>Email</strong><br>
+    				  <a href="mailto:#">fobrooklynpark@gmail.com</a>
+    				</address>
+            <address>
+    				  <strong>We're on social networks</strong><br>
+             	<ul class="company-social">
+                  <li class="social-facebook"><a href="https://www.facebook.com/fobrooklynpark/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                  <li class="social-twitter"><a href="https://twitter.com/fobrooklynpark" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              </ul>
+    				</address>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- /Section: contact -->
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-12">
+          <div class="wow shake" data-wow-delay="0.4s">
+            <div class="page-scroll marginbot-30">
+              <a href="#intro" id="totop" class="btn btn-circle">
+							<i class="fa fa-angle-double-up animated"></i>
+						</a>
+            </div>
+          </div>
+          <p>&copy;FobP. All rights reserved.</p>
+          <div class="credits">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Core JavaScript Files -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/wow.min.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
 </body>
+
 </html>
