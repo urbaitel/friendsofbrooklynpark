@@ -8,4 +8,9 @@ Website is hosted on Github
 Simply fork, submit a PR and we'll approve and merge changes to go live!
 
 ### License
-This website was built from an open source free (WowThemes.net)
+This website was built from an open source (Bootstrapmade.com)
+
+- Theme Name: Squadfree
+- Theme URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
+- Author: BootstrapMade
+- Author URL: https://bootstrapmade.com
