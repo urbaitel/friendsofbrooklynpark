@@ -377,6 +377,7 @@ hr {
 .boxed-grey {
 	background: #f9f9f9;
 	padding: 20px;
+  margin-top: 10px;
 }
 
 .team h5 {
@@ -770,6 +771,10 @@ Parallax
 
 @media(min-width:767px) {
 
+    .logo-image-smaller {
+        width: 50%;
+    }
+
     .navbar {
         padding: 20px 0;
         border-bottom: 0;
@@ -842,4 +847,18 @@ Parallax
 		font-size: 20px;
 	}
 
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
 }

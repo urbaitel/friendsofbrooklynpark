@@ -19,15 +19,24 @@
   <link href="css/style.css" rel="stylesheet">
   <link href="color/default.css" rel="stylesheet">
 
+  <script language="javascript">
+  function showInfo(id) {
+    var x = document.getElementById(id);
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  </script>
+
   <!-- =======================================================
     Theme Name: Squadfree
     Theme URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
     Author: BootstrapMade
     Author URL: https://bootstrapmade.com
   ======================================================= -->
-
 </head>
-
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
   <!-- Preloader -->
   <div id="preloader">
@@ -67,8 +76,8 @@
     <div class="slogan">
       <h2>FRIENDS OF <span class="text_color">BROOKLYN PARK</span> </h2>
       <h4>
-        The Summer Youth Program is happening now!<br/>
-        June 18 - Aug 24<br/>
+        The Summer Youth Program is happening in 2019!<br/>
+        June - Aug <br/>
         Mondays, Tuesdays, Thursdays and Fridays from 12PM to 8PM<br/>
         <p>
           <a href="https://www.facebook.com/pg/fobrooklynpark/events/" target=_blank>
@@ -93,7 +102,7 @@
           <div class="col-lg-8 col-lg-offset-2">
             <div class="wow bounceInDown" data-wow-delay="0.4s">
               <div class="section-heading">
-                <img src="img/logo.png" class="img-rounded img-responsive"/><br/>
+                <center><img src="img/logo.png" class="img-rounded img-responsive logo-image-smaller"/></center><br/>
                 <h2>Summer Youth Program</h2>
                 <i class="fa fa-2x fa-angle-down"></i>
               </div>
@@ -191,8 +200,11 @@
           <div class="wow bounceInUp" data-wow-delay="0.2s">
             <div class="team boxed-grey">
               <div class="inner">
-                <h5>Ben Tarne</h5>
+                <h5>Benjamin Tarne</h5>
                 <p class="subtitle">Chair</p>
+                <center><img class="img-rounded img-responsive" src="img/team/ben.jpg" /></center>
+                <p><a onclick="showInfo('ben')">[ view bio ]</a></p>
+                <p id="ben" style="display:none;">Ben is active in the Brooklyn community and is a former board member of Brooklyn Action Corps (BAC), Southeast Uplift (SEUL), and Brooklyn Coop Preschool. Ben, his wife, and 5 year old son moved to Brooklyn 4 years ago and love the community in this little slice of SE Portland. When not engaged in neighborhood activities or playing at the park, Ben performs children’s music around town as Music Quest and trombone with the Marylhurst Community Symphony.</p>
               </div>
             </div>
           </div>
@@ -203,6 +215,9 @@
               <div class="inner">
                 <h5>Daniel Gaard</h5>
                 <p class="subtitle">Vice Chair</p>
+                <center><img class="img-rounded img-responsive" src="img/team/daniel.jpg" /></center>
+                <p><a onclick="showInfo('daniel')">[ view bio ]</a></p>
+                <p id="daniel" style="display:none;">For over 10 years my family and I have been fortunate enough to be neighbors to Brooklyn Park and the Summer Park Program. Over the years my sons have been a part of this fantastic program. I have been at the park at first as a parent and neighbor, but for those of you who recognize my picture I might be seen as the program’s handyman. I have had the pleasure of helping Craig open and close “The Shack”, pull out the slip'n'slide (which winters in our garage), fix furniture, repair games, setup the slackline (watch us sometime we have to figure it out every week), but most of all seeing our kids enjoying the summer with their friends.</p>
               </div>
             </div>
           </div>
@@ -213,6 +228,9 @@
               <div class="inner">
                 <h5>Caroline Dunn</h5>
                 <p class="subtitle">Secretary</p>
+                <center><img class="img-rounded img-responsive" src="img/team/caroline.jpg" /></center>
+                <p><a onclick="showInfo('caroline')">[ view bio ]</a></p>
+                <p id="caroline" style="display:none;">As a native Oregonian, Caroline feels most at home in the great outdoors— rain or shine. She has lived in the Brooklyn neighborhood for 6 years and enjoys gardening, barbecuing, and getting to know neighbors.</p>
               </div>
             </div>
           </div>
@@ -223,6 +241,9 @@
               <div class="inner">
                 <h5>April Dewees</h5>
                 <p class="subtitle">Treasurer</p>
+                <center><img class="img-rounded img-responsive" src="img/team/april.jpg"/></center>
+                <p><a onclick="showInfo('april')">[ view bio ]</a></p>
+                <p id="april" style="display:none;">April’s family has lived on 9th Ave for 20 years with their 2 teenagers who have loved the park program, plus 2 cats and 2 chickens. The family hosts exchange students every couple of years; this year their 6th student will be coming from Norway.  April teaches High School Forensic Science in Sherwood.</p>
               </div>
             </div>
           </div>
@@ -255,6 +276,9 @@
               <div class="inner">
                 <h5>Melaney Dittler</h5>
                 <p class="subtitle">Brooklyn Business Liaison</p>
+                <center><img class="img-rounded img-responsive" src="img/team/mel.jpg" /></center>
+                <p><a onclick="showInfo('mel')">[ view bio ]</a></p>
+                <p id="mel" style="display:none;">Melaney has lived in her 1898 home in the Brooklyn neighborhood for 13 years with her husband Tim. Her son attended Winterhaven and Cleveland High School, and is now attending PSU. In addition to the Friends of Brooklyn Park, Melaney is also on the BAC Board and the Greater Brooklyn Business Association Board and volunteers for several other organizations in the area. Melaney is a local realtor that loves all homes with history and learning about the history of Brooklyn.</p>
               </div>
             </div>
           </div>
@@ -263,7 +287,7 @@
           <div class="wow bounceInUp" data-wow-delay="0.2s">
             <div class="team boxed-grey">
               <div class="inner">
-                <h5>Jessica LaVigne</h5>
+                <h5>OPEN - CONTACT US!</h5>
                 <p class="subtitle">Fundraiser</p>
               </div>
             </div>
@@ -326,6 +350,12 @@
         <div class="col-lg-2 col-lg-offset-5">
           <hr class="marginbot-50">
         </div>
+      </div>
+      <div class="row">
+        <div class="resp-container">
+          <iframe class="resp-iframe" src="https://calendar.google.com/calendar/embed?src=cab11bol79ckod399dqmeq0pmk%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" frameborder="0" scrolling="no"></iframe>
+      </div>
+        <center></center>
       </div>
       <div class="row">
         <div class="col-md-6">
